@@ -1,0 +1,14 @@
+{
+    "bootstrap": true,
+    "server": true,
+    "datacenter": "medivo",
+    "data_dir": "/var/consul",
+    "encrypt": "tHPGE6YbM3OJvWbDmTHDnQ==",
+    "cert_file": "/config/consul.cert",
+    "key_file": "/config/consul.key",
+    "ca_file": "/config/ca.cert",
+    "verify_incoming": true,
+    "verify_outgoing": true,
+    "log_level": "INFO",
+    "enable_syslog": false 
+}

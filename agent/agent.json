@@ -1,0 +1,25 @@
+{
+    "bootstrap": false,
+    "server": false,
+    "client_addr": "172.17.0.6",
+    "ui_dir": "/web",
+    "datacenter": "medivo",
+    "cert_file": "/config/consul.cert",
+    "key_file": "/config/consul.key",
+    "ca_file": "/config/ca.cert",
+    "encrypt": "tHPGE6YbM3OJvWbDmTHDnQ==",
+    "ca_file": "/config/ca.cert",
+    "verify_incoming": true,
+    "verify_outgoing": true,
+    "data_dir": "/var/consul",
+    "start_join":["172.17.0.2","172.17.0.3","172.17.0.4"],
+    "log_level": "INFO",
+    "enable_syslog": false,
+    "addresses": {
+     "https": "0.0.0.0"
+      },
+    "ports": {
+     "https": 8080
+    }
+}
+
